@@ -67,3 +67,4 @@ A chave presente no frontend é a chave **publishable/anon**, feita para uso pú
 ## Aviso
 
 Este é um projeto de fãs e não é afiliado nem endossado por Stardew Valley ou ConcernedApe. Stardew Valley e seus assets pertencem aos seus respectivos proprietários.
+Hospedado no Cloudflare Workers.
