@@ -741,6 +741,8 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
+    // Sincroniza a lista compartilhada assim que a sessão autenticada muda.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (user) loadFarms();
     else {
       setFarms([]);
@@ -809,6 +811,8 @@ export default function Home() {
 
   useEffect(() => {
     if (!selectedFarm) return;
+    // O estado de carregamento pertence ao ciclo da fazenda selecionada.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true);
     const farmId = selectedFarm.id;
     let refreshTimer: number | undefined;
@@ -930,7 +934,7 @@ export default function Home() {
             alt={`Logo da ${selectedFarm.name}`}
           />
           <div>
-            <p className="eyebrow">{selectedFarm.name} · Stardew Valley</p>
+            <p className="eyebrow">{selectedFarm.name} · JunimoCheck</p>
             <ChecklistLogoTitle text={selectedFarm.checklist_title} />
             <p className="intro">
               {selectedFarm.description ||
@@ -1261,8 +1265,8 @@ function AuthScreen() {
       <PixelLeaves />
       <section className="auth-card">
         <div className="check-emblem">✓</div>
-        <p className="eyebrow">Stardew Valley</p>
-        <ChecklistLogoTitle text="Checklist da Fazenda" />
+        <p className="eyebrow">Stardew Valley · Checklist colaborativa</p>
+        <ChecklistLogoTitle text="JunimoCheck" />
         <p className="auth-copy">
           Crie sua fazenda, convide os amigos e acompanhem o Centro Comunitário
           juntos.
@@ -1469,6 +1473,8 @@ function FarmHub({
     };
   }, [blockingModalOpen]);
   useEffect(() => {
+    // Mantém o seletor alinhado com o perfil recebido do Supabase.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setAvatarKey((myProfile?.avatar_key as AvatarKey) || "abigail");
   }, [myProfile?.avatar_key]);
   function chooseLogo(event: ChangeEvent<HTMLInputElement>) {
@@ -1600,7 +1606,7 @@ function FarmHub({
       <header className="hub-header">
         <div>
           <div className="mini-check">✓</div>
-          <p className="eyebrow">Stardew Valley · Hub</p>
+          <p className="eyebrow">JunimoCheck · Hub</p>
           <h1 className="hub-logo-title">
             <span className="hub-logo-text" data-text="Minhas Fazendas">
               Minhas Fazendas
