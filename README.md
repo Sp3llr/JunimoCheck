@@ -9,9 +9,8 @@ Checklist colaborativa para organizar o Centro Comunitário de Stardew Valley co
 
 <p>
   <a href="https://checklist-stardew-valley.manoelricardo847.workers.dev">
-    <img alt="Abrir a JunimoCheck" src="https://img.shields.io/badge/ABRIR_A_JUNIMOCHECK-3f7c39?style=for-the-badge&logo=cloudflare&logoColor=white">
+    <img height="48" alt="Abrir a JunimoCheck" src="https://img.shields.io/badge/ABRIR_A_JUNIMOCHECK-3f7c39?style=for-the-badge&logo=cloudflare&logoColor=white">
   </a>
-  <img alt="Status online" src="https://img.shields.io/badge/STATUS-ONLINE-2f855a?style=for-the-badge">
 </p>
 
 <p>
@@ -19,6 +18,10 @@ Checklist colaborativa para organizar o Centro Comunitário de Stardew Valley co
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178c6?style=flat-square&logo=typescript&logoColor=white">
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-Realtime-3ecf8e?style=flat-square&logo=supabase&logoColor=white">
   <img alt="Cloudflare Workers" src="https://img.shields.io/badge/Cloudflare-Workers-f38020?style=flat-square&logo=cloudflare&logoColor=white">
+</p>
+
+<p>
+  <img alt="Status da JunimoCheck: online" src="https://img.shields.io/badge/STATUS-ONLINE-2f855a?style=flat-square">
 </p>
 </div>
 
@@ -49,8 +52,6 @@ Crie seu perfil, escolha um personagem de Stardew Valley e entre na sua equipe c
 
 <img src="./docs/screenshots/account.png" width="100%" alt="Tela de criação de conta da JunimoCheck">
 
-<p align="right"><a href="#o-projeto">↑ Voltar ao início</a></p>
-
 <a id="hub"></a>
 
 ## 02 · Hub das fazendas
@@ -58,8 +59,6 @@ Crie seu perfil, escolha um personagem de Stardew Valley e entre na sua equipe c
 O hub reúne todas as fazendas do jogador em um só lugar, mostra os integrantes e dá acesso rápido a cada checklist.
 
 <img src="./docs/screenshots/hub.png" width="100%" alt="Hub da JunimoCheck com as fazendas do jogador">
-
-<p align="right"><a href="#o-projeto">↑ Voltar ao início</a></p>
 
 <a id="fazenda"></a>
 
@@ -69,8 +68,6 @@ Personalize o nome, o título, a descrição e a logo da fazenda antes de convid
 
 <img src="./docs/screenshots/farm-creation.png" width="100%" alt="Formulário para criar e personalizar uma fazenda">
 
-<p align="right"><a href="#o-projeto">↑ Voltar ao início</a></p>
-
 <a id="checklist"></a>
 
 ## 04 · Checklist colaborativa
@@ -78,8 +75,6 @@ Personalize o nome, o título, a descrição e a logo da fazenda antes de convid
 Marque as entregas em tempo real, acompanhe o progresso compartilhado e filtre os pacotes por sala ou estação.
 
 <img src="./docs/screenshots/checklist.png" width="100%" alt="Checklist colaborativa do Centro Comunitário">
-
-<p align="right"><a href="#o-projeto">↑ Voltar ao início</a></p>
 
 <a id="estacoes"></a>
 
@@ -104,8 +99,6 @@ Cada estação tem sua própria seleção de itens, paleta de cores e cenário. 
 
 <img src="./docs/screenshots/spring.png" width="100%" alt="Checklist da JunimoCheck durante a Primavera">
 
-<p align="right"><a href="#estacoes">↑ Voltar às estações</a></p>
-
 <a id="verao"></a>
 
 ### Verão
@@ -113,8 +106,6 @@ Cada estação tem sua própria seleção de itens, paleta de cores e cenário. 
 > **Verde vibrante e dourado:** uma paisagem clara para as colheitas e pescarias do Verão.
 
 <img src="./docs/screenshots/summer.png" width="100%" alt="Checklist da JunimoCheck durante o Verão">
-
-<p align="right"><a href="#estacoes">↑ Voltar às estações</a></p>
 
 <a id="outono"></a>
 
@@ -124,8 +115,6 @@ Cada estação tem sua própria seleção de itens, paleta de cores e cenário. 
 
 <img src="./docs/screenshots/autumn.png" width="100%" alt="Checklist da JunimoCheck durante o Outono">
 
-<p align="right"><a href="#estacoes">↑ Voltar às estações</a></p>
-
 <a id="inverno"></a>
 
 ### Inverno
@@ -133,8 +122,6 @@ Cada estação tem sua própria seleção de itens, paleta de cores e cenário. 
 > **Azul-claro, branco e ciano:** neve, árvores congeladas e um visual mais frio para os itens do Inverno.
 
 <img src="./docs/screenshots/winter.png" width="100%" alt="Checklist da JunimoCheck durante o Inverno">
-
-<p align="right"><a href="#estacoes">↑ Voltar às estações</a></p>
 
 ## Principais recursos
 
