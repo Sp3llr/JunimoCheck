@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/favicon.svg" width="96" alt="Logo da JunimoCheck">
+  <img src="./public/junimocheck-logo.png" width="180" alt="Logo da JunimoCheck com um Junimo verde segurando o símbolo de check">
 
 # JunimoCheck
 
