@@ -144,6 +144,8 @@ Idealizado e desenvolvido por **Manoel Ricardo ([@Sp3llr](https://github.com/Sp3
 
 ## Documentação técnica
 
+- [Especificação de requisitos funcionais e não funcionais](./docs/REQUISITOS.md)
+
 <details>
 <summary><strong>Executar no computador</strong></summary>
 
